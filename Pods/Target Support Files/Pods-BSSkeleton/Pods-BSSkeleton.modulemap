@@ -1,0 +1,6 @@
+framework module Pods_BSSkeleton {
+  umbrella header "Pods-BSSkeleton-umbrella.h"
+
+  export *
+  module * { export * }
+}

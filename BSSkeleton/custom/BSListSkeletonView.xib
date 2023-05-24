@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BSListSkeletonView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ik-Cd-6fz">
+                    <rect key="frame" x="15" y="58" width="69" height="10"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="UPx-E1-90X"/>
+                        <constraint firstAttribute="height" constant="10" id="aSF-dv-sKM"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yo9-b8-wOa">
+                    <rect key="frame" x="15" y="76" width="384" height="62"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Yo9-b8-wOa" secondAttribute="height" multiplier="192:31" id="H7A-WH-vZg"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJ2-A0-tuA">
+                    <rect key="frame" x="15" y="162" width="69" height="10"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="DJb-h2-yYo"/>
+                        <constraint firstAttribute="height" constant="10" id="F6q-67-ZDV"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gm5-it-9UC">
+                    <rect key="frame" x="15" y="180" width="384" height="62"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Gm5-it-9UC" secondAttribute="height" multiplier="192:31" id="35N-Rg-PMz"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bi5-Uu-Iw4">
+                    <rect key="frame" x="15" y="266" width="69" height="10"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="bbD-wv-OPt"/>
+                        <constraint firstAttribute="height" constant="10" id="ffg-tq-LZx"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WxL-Z1-naC">
+                    <rect key="frame" x="15" y="284" width="384" height="62"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="WxL-Z1-naC" secondAttribute="height" multiplier="192:31" id="lLV-Rq-UMm"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wAk-PQ-MTt">
+                    <rect key="frame" x="15" y="370" width="69" height="10"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="B9v-Lp-RFE"/>
+                        <constraint firstAttribute="height" constant="10" id="TOt-qQ-sRP"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FyA-Q1-tJh">
+                    <rect key="frame" x="15" y="388" width="384" height="62"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="FyA-Q1-tJh" secondAttribute="height" multiplier="192:31" id="lKz-Is-tWH"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6UA-LJ-SIb">
+                    <rect key="frame" x="15" y="474" width="69" height="10"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="K4D-pk-3E6"/>
+                        <constraint firstAttribute="width" constant="69" id="PfF-Jm-bvf"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="27P-8s-wf8">
+                    <rect key="frame" x="15" y="492" width="384" height="62"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="27P-8s-wf8" secondAttribute="height" multiplier="192:31" id="tph-fM-r6f"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d02-RL-wuL">
+                    <rect key="frame" x="15" y="578" width="69" height="10"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="RWB-AJ-2bp"/>
+                        <constraint firstAttribute="height" constant="10" id="eEz-pm-0q8"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ebd-yd-U0e">
+                    <rect key="frame" x="15" y="596" width="384" height="62"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Ebd-yd-U0e" secondAttribute="height" multiplier="192:31" id="B1X-nz-VZJ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWe-Ou-Hv3">
+                    <rect key="frame" x="15" y="682" width="69" height="10"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="69" id="jVT-CU-srI"/>
+                        <constraint firstAttribute="height" constant="10" id="khk-iF-4p6"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SX6-ZO-mPu">
+                    <rect key="frame" x="15" y="700" width="384" height="62"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="SX6-ZO-mPu" secondAttribute="height" multiplier="192:31" id="25H-1V-gPG"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdh-QJ-zi1">
+                    <rect key="frame" x="15" y="786" width="69" height="10"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="5zI-Wy-wk1"/>
+                        <constraint firstAttribute="width" constant="69" id="EKw-g2-GnK"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SIo-fr-0BR">
+                    <rect key="frame" x="15" y="804" width="384" height="62"/>
+                    <color key="backgroundColor" name="match_skeleton_color"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="SIo-fr-0BR" secondAttribute="height" multiplier="192:31" id="Y50-rd-q6y"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="corRadius">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="27P-8s-wf8" firstAttribute="width" secondItem="27P-8s-wf8" secondAttribute="height" multiplier="192:31" id="17z-Nj-FCd"/>
+                <constraint firstItem="SX6-ZO-mPu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="5Cf-Gi-6h4"/>
+                <constraint firstItem="SIo-fr-0BR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="6as-Cc-DKQ"/>
+                <constraint firstItem="HWe-Ou-Hv3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="8eR-Tk-97e"/>
+                <constraint firstItem="SIo-fr-0BR" firstAttribute="width" secondItem="SIo-fr-0BR" secondAttribute="height" multiplier="192:31" id="BvU-gC-vej"/>
+                <constraint firstItem="Yo9-b8-wOa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Dkx-1K-sEq"/>
+                <constraint firstItem="SX6-ZO-mPu" firstAttribute="width" secondItem="SX6-ZO-mPu" secondAttribute="height" multiplier="192:31" id="FMv-KI-mCR"/>
+                <constraint firstItem="d02-RL-wuL" firstAttribute="top" secondItem="27P-8s-wf8" secondAttribute="bottom" constant="24" id="Iar-8I-Br6"/>
+                <constraint firstItem="FyA-Q1-tJh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Iiq-4z-vaI"/>
+                <constraint firstItem="Gm5-it-9UC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="LtO-ye-2TR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SIo-fr-0BR" secondAttribute="trailing" constant="15" id="MD6-6S-i3E"/>
+                <constraint firstItem="SIo-fr-0BR" firstAttribute="top" secondItem="gdh-QJ-zi1" secondAttribute="bottom" constant="8" id="O49-Z8-l2V"/>
+                <constraint firstItem="rJ2-A0-tuA" firstAttribute="top" secondItem="Yo9-b8-wOa" secondAttribute="bottom" constant="24" id="PEt-jM-VcY"/>
+                <constraint firstItem="6UA-LJ-SIb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Q4M-xg-HqM"/>
+                <constraint firstItem="d02-RL-wuL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Qzk-NX-Bsl"/>
+                <constraint firstItem="gdh-QJ-zi1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="RWR-rt-kuq"/>
+                <constraint firstItem="Ebd-yd-U0e" firstAttribute="top" secondItem="d02-RL-wuL" secondAttribute="bottom" constant="8" id="Rc1-cg-10i"/>
+                <constraint firstItem="FyA-Q1-tJh" firstAttribute="top" secondItem="wAk-PQ-MTt" secondAttribute="bottom" constant="8" id="T8l-xZ-GIR"/>
+                <constraint firstItem="Gm5-it-9UC" firstAttribute="top" secondItem="rJ2-A0-tuA" secondAttribute="bottom" constant="8" id="Ve2-Dy-MNV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ebd-yd-U0e" secondAttribute="trailing" constant="15" id="aAc-Qy-L7H"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="WxL-Z1-naC" secondAttribute="trailing" constant="15" id="aKy-Eb-wdJ"/>
+                <constraint firstItem="wAk-PQ-MTt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="bVM-ZV-E79"/>
+                <constraint firstItem="9Ik-Cd-6fz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="eqt-H8-6hk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Yo9-b8-wOa" secondAttribute="trailing" constant="15" id="ewS-hY-oe7"/>
+                <constraint firstItem="WxL-Z1-naC" firstAttribute="top" secondItem="bi5-Uu-Iw4" secondAttribute="bottom" constant="8" id="fRl-Yp-sjB"/>
+                <constraint firstItem="WxL-Z1-naC" firstAttribute="width" secondItem="WxL-Z1-naC" secondAttribute="height" multiplier="192:31" id="g2V-zj-dwP"/>
+                <constraint firstItem="Yo9-b8-wOa" firstAttribute="top" secondItem="9Ik-Cd-6fz" secondAttribute="bottom" constant="8" id="h4o-fj-hGs"/>
+                <constraint firstItem="Ebd-yd-U0e" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="hoc-QP-gAt"/>
+                <constraint firstItem="bi5-Uu-Iw4" firstAttribute="top" secondItem="Gm5-it-9UC" secondAttribute="bottom" constant="24" id="iza-bN-vHp"/>
+                <constraint firstItem="SX6-ZO-mPu" firstAttribute="top" secondItem="HWe-Ou-Hv3" secondAttribute="bottom" constant="8" id="jxk-PQ-a65"/>
+                <constraint firstItem="wAk-PQ-MTt" firstAttribute="top" secondItem="WxL-Z1-naC" secondAttribute="bottom" constant="24" id="kS1-Qw-suN"/>
+                <constraint firstItem="rJ2-A0-tuA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="lc0-q4-jVO"/>
+                <constraint firstItem="gdh-QJ-zi1" firstAttribute="top" secondItem="SX6-ZO-mPu" secondAttribute="bottom" constant="24" id="mAq-xg-jWr"/>
+                <constraint firstItem="FyA-Q1-tJh" firstAttribute="width" secondItem="FyA-Q1-tJh" secondAttribute="height" multiplier="192:31" id="mx9-B5-Gnu"/>
+                <constraint firstItem="27P-8s-wf8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="oYw-kO-NTz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FyA-Q1-tJh" secondAttribute="trailing" constant="15" id="qfg-Fi-sBu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="27P-8s-wf8" secondAttribute="trailing" constant="15" id="rRE-Cy-Avr"/>
+                <constraint firstItem="27P-8s-wf8" firstAttribute="top" secondItem="6UA-LJ-SIb" secondAttribute="bottom" constant="8" id="sNt-Yu-v7F"/>
+                <constraint firstItem="bi5-Uu-Iw4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="sgu-0o-DbV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Gm5-it-9UC" secondAttribute="trailing" constant="15" id="srW-zo-9RM"/>
+                <constraint firstItem="9Ik-Cd-6fz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="vTR-YC-mKm"/>
+                <constraint firstItem="6UA-LJ-SIb" firstAttribute="top" secondItem="FyA-Q1-tJh" secondAttribute="bottom" constant="24" id="w4N-LN-sWc"/>
+                <constraint firstItem="WxL-Z1-naC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="w9f-zI-fGx"/>
+                <constraint firstItem="Gm5-it-9UC" firstAttribute="width" secondItem="Gm5-it-9UC" secondAttribute="height" multiplier="192:31" id="wBL-QS-JU1"/>
+                <constraint firstItem="HWe-Ou-Hv3" firstAttribute="top" secondItem="Ebd-yd-U0e" secondAttribute="bottom" constant="24" id="yFv-0N-sQx"/>
+                <constraint firstItem="Ebd-yd-U0e" firstAttribute="width" secondItem="Ebd-yd-U0e" secondAttribute="height" multiplier="192:31" id="zic-IY-1h1"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SX6-ZO-mPu" secondAttribute="trailing" constant="15" id="znD-NN-zX5"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="86"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="match_skeleton_color">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.029999999329447746" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
